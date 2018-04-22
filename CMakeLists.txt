@@ -12,7 +12,7 @@ find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
 add_executable(allocate ${SOURCE_PATH}/main.cpp)
 
-add_library(NewDelete ${SOURCE_PATH}/newdelete.cc)
+add_library(NewDelete ${SOURCE_PATH}/newdelete.cpp)
 
 #add_executable(test_main_exe test_main.cpp)
 
