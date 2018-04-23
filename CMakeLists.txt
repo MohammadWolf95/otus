@@ -8,7 +8,7 @@ set(SOURCE_PATH "${PROJECT_SOURCE_DIR}/src")
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
-configure_file(${SOURCE_PATH}/version.h.in version.h)
+#configure_file(${SOURCE_PATH}/version.h.in version.h)
 
 add_executable(allocate ${SOURCE_PATH}/main.cpp)
 
